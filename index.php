@@ -6,6 +6,7 @@
     <title>Mind Connect</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <link rel="icon" type="img/png" href="img/FINAL.png">
   </head>
   <body>
 
@@ -16,17 +17,17 @@
             <div class="d-flex flex-row justify-content-between align-items-center">
               <div class="d-flex flex-row justify-content-start align-items-center">
                 <a class="navbar-brand text-white d-flex align-items-center" href="#">
-                  <img src="logo.png" alt="Logo">
+                  <img src="img/FINAL.png" alt="Logo">
                   Mind Connect
                 </a>
               </div>
               <div class="d-flex flex-row justify-content-end align-items-center">
                 <ul class="navbar-nav ms-auto d-flex flex-row">
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Home</a>
+                    <a class="nav-link text-white" href="index.php">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="#">About</a>
+                    <a class="nav-link text-white" href="about.php">About</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link text-white" href="#">Contact</a>
