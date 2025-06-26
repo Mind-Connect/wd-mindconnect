@@ -206,3 +206,70 @@ p {
   font-family: 'Lora', serif;
   font-weight: 500;
 }
+
+body.contact {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 20px;
+}
+
+.contact-section {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+h1.contact {
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.team-member {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 15px;
+  width: 100%;
+  max-width: 300px;
+  transition: transform 0.3s;
+}
+
+@media (min-width: 600px) {
+  .team-member {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (min-width: 992px) {
+  .team-member {
+    width: calc(33.33% - 20px);
+  }
+}
+
+.team-member:hover {
+  transform: translateY(-5px);
+}
+
+.team-member img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.team-member h3 {
+  margin: 10px 0 5px;
+  font-size: 1.2em;
+}
+
+.team-member p {
+  margin: 3px 0;
+  font-size: 0.9em;
+  color: #555;
+}
