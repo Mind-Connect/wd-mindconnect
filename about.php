@@ -28,10 +28,10 @@
                     <a class="nav-link text-white" href="index.php">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="">About</a>
+                    <a class="nav-link text-white" href="about.php">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Contact</a>
+                    <a class="nav-link text-white" href="contact.php">Contact</a>
                   </li>
                 </ul>
               </div>
