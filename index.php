@@ -31,7 +31,7 @@
       </div>
     </section>
 
-
+  <section>
     <div class="container main-area">
       <div class="row m-3 py-5">
        
@@ -48,6 +48,7 @@
           <div class="glass-box">sffd</div>
         </div>
       </div>
+  </section>
 
         <?php include 'quotes.php'; ?>  
 

@@ -5,6 +5,7 @@ session_start();
 session_destroy();
 session_start();
 
+
 if (isset($_POST['username'])) {
   $username = $_POST['username'];
   $password = $_POST['password'];
@@ -21,6 +22,7 @@ if (isset($_POST['username'])) {
       $_SESSION['email'] = $row['email'];
     }
     header("Location: admin.php");
+ 
   } else {
     echo "NO USER FOUND";
   }
@@ -40,21 +42,27 @@ if (isset($_POST['username'])) {
     <link rel="icon" type="img/png" href="img/FINAL.png">
   <style>
     body {
-      background: linear-gradient(to right, #74ebd5, #acb6e5);
+      background-image: url('img/3.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
       min-height: 100vh;
       display: flex;
-      justify-content: center;
       align-items: center;
       font-family: 'Segoe UI', sans-serif;
+      justify-content: center;
+
+
     }
 
     .login-card {
-      background: #ffffff;
+      background:rgba(255, 255, 255, 0.52);
       border-radius: 20px;
       box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
       padding: 40px;
       max-width: 400px;
-      width: 100%;
+      width: 30%;
     }
 
     .form-control {
@@ -74,6 +82,7 @@ if (isset($_POST['username'])) {
       font-size: 3rem;
       color: #6c63ff;
     }
+
   </style>
 </head>
 

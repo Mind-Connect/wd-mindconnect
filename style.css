@@ -152,6 +152,7 @@ section {
 }
 
 .section-title {
+  margin-top: 30px;
   margin-bottom: 1rem;
   font-size: 48px;
   color: rgb(0, 0, 0);
@@ -215,8 +216,7 @@ h1 {
 
 h1, h2{
   font-family:'Lora', serif;
-   font-weight:500;
-
+  font-weight:500;
   font-weight:500;
 }
 
@@ -230,6 +230,7 @@ body.contact {
   background-color: #f8f9fa;
   margin: 0;
   padding: 20px;
+  background: rgba(223, 245, 227);
 }
 
 .contact-section {
@@ -238,6 +239,7 @@ body.contact {
 }
 
 h1.contact {
+  margin-top: 30px;
   margin-bottom: 30px;
   color: #333;
 }

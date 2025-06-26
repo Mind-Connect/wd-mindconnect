@@ -1,5 +1,5 @@
 <div class="container-fluid shadow fixed-top" style="background:rgb(32, 83, 117);">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
           <div class="col py-3">
             <div class="d-flex flex-row justify-content-between align-items-center">
