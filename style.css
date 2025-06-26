@@ -3,6 +3,7 @@ body {
 }
 .navbar {
   background-color: rgb(32, 83, 117);
+  box-shadow: 0px 15px 15px 2px rgb(0,0,0);
 }
 .navbar-brand {
   font-family:'Montserrat', sans-serif;
@@ -21,7 +22,7 @@ body {
   object-fit: cover;
 }
 .nav-link {
-  color: rgba(255,255,255) !important;
+  color: rgba(255,255,255);
   font-family:'Playfair Display', serif;
   font-weight: 400;
   font-size: 1.5rem;
@@ -50,12 +51,14 @@ body {
   transition: background 0.2s;
   margin-bottom: 24px;
 }
+
 .glass-btn:last-child {
   margin-bottom: 0;
 }
 .glass-btn:hover {
   background: rgba(192, 217, 196);
 }
+
 .glass-box {
   min-height: 300px;
   border-radius: 20px;
@@ -67,6 +70,7 @@ body {
   margin-right: 10px;
   margin-top: 10px;
 }
+
 @media (max-width: 767px) {
   .glass-box { min-height: 180px; }
   .glass-btn { width: 100%; }
@@ -174,7 +178,7 @@ h5{
   font-weight:600;
 }
 
-h1{
+h1, h2{
   font-family:'Lora', serif;
    font-weight:500;
 }
@@ -183,3 +187,4 @@ p{
   font-family:'Lora', serif;
    font-weight:500;
 }
+

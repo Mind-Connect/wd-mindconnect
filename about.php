@@ -11,7 +11,7 @@
   </head>
   <body>
 
-      <?php include 'navbar.php'; ?>  
+      <?php include 'userNavbar.php'; ?>  
 
     <section id="about" class="bg-muted my-5">
         <div class="container">
