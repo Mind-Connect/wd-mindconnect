@@ -1,5 +1,5 @@
 <?php
-  include("connect.php");
+  include("connection.php");
 
   session_start();
 
