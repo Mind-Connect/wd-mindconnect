@@ -15,7 +15,7 @@
 
 
     <section class="contact-section">
-    <h1 class="contact">Meet the Team</h1>
+    <h1 class="contact" style="padding: 50px 0; text-align: center;">Meet the Team</h1>
     <div class="team-container">
 
       <div class="team-member">
@@ -34,21 +34,21 @@
 
       <div class="team-member">
         <img src="img/esquivel-s.jpg" alt="Esquivel">
-        <h3>ESQUIVEL, Shaine</h3>
+        <h3><strong>ESQUIVEL,</strong> Shaine</h3>
         <p>Email: shaineesquivel@gmail.com</p>
         <p>Contact: 0929 117 3617</p>
       </div>
 
       <div class="team-member">
         <img src="img/guevarra.jpg" alt="Guevarra">
-        <h3>GUEVARRA, Clide Ivans</h3>
+        <h3><strong>GUEVARRA,</strong> Clide Ivans</h3>
         <p>Email: clide2905@gmail.com</p>
         <p>Contact: 0991 426 4963</p>
       </div>
 
       <div class="team-member">
         <img src="img/hernandez.jpg" alt="Hernandez">
-        <h3>HERNANDEZ, John Matthew</h3>
+        <h3><strong>HERNANDEZ,</strong> John Matthew</h3>
         <p>Email: john.matthew.hernandez@gmail.com</p>
         <p>Contact: 0933 445 2211</p>
       </div>
