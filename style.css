@@ -215,9 +215,8 @@ h1 {
 
 h1, h2{
   font-family:'Lora', serif;
-<<<<<<< HEAD
    font-weight:500;
-=======
+
   font-weight:500;
 }
 
@@ -291,5 +290,4 @@ h1.contact {
   margin: 3px 0;
   font-size: 0.9em;
   color: #555;
->>>>>>> 369ddcfc43c5a0b80ac791b736fc06e47d41d6f4
 }
