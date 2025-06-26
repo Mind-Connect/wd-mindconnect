@@ -211,15 +211,13 @@ h5 {
   font-weight: 600;
 }
 
-<<<<<<< HEAD
 h1 {
   font-family: 'Dancing Script', cursive;
   font-weight: 20;
-=======
+
 h1, h2{
   font-family:'Lora', serif;
    font-weight:500;
->>>>>>> b6e50cd6302fbf622d1c6fa89b21fb00232d2362
 }
 
 p {
@@ -293,4 +291,3 @@ h1.contact {
   font-size: 0.9em;
   color: #555;
 }
-
