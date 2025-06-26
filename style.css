@@ -79,7 +79,9 @@ body {
   color: rgba(255,255,255);
   display: flex;
   align-items: center;
+  background-attachment: fixed; 
 }
+
 .hero-overlay {
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
@@ -96,6 +98,7 @@ body {
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 1rem;
+  color: #111 !important;
 }
 .hero-section h5 {
   font-size: 1.3rem;
