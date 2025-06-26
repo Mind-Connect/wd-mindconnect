@@ -36,6 +36,8 @@ if (isset($_POST['username'])) {
   <title>Login | MindConnect</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+      <link rel="icon" type="img/png" href="img/FINAL.png">
+    <link rel="icon" type="img/png" href="img/FINAL.png">
   <style>
     body {
       background: linear-gradient(to right, #74ebd5, #acb6e5);
