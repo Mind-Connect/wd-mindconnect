@@ -11,7 +11,7 @@
   </head>
   <body class="contact">
 
-      <?php include 'navbar.php'; ?>  
+      <?php include 'userNavbar.php'; ?>  
 
 
     <section class="contact-section">

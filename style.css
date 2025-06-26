@@ -4,6 +4,7 @@ body {
 
 .navbar {
   background-color: rgb(32, 83, 117);
+  box-shadow: 0px 15px 15px 2px rgb(0,0,0);
 }
 
 .navbar-brand {
@@ -25,8 +26,13 @@ body {
 }
 
 .nav-link {
+<<<<<<< HEAD
   color: rgba(255, 255, 255) !important;
   font-family: 'Playfair Display', serif;
+=======
+  color: rgba(255,255,255);
+  font-family:'Playfair Display', serif;
+>>>>>>> b6e50cd6302fbf622d1c6fa89b21fb00232d2362
   font-weight: 400;
   font-size: 1.5rem;
   margin-left: 1.5rem;
@@ -179,6 +185,14 @@ section {
   justify-content: center
 }
 
+.about-icon {
+  width: 400px;  
+  height: auto;   
+  border-radius: 50%; 
+  object-fit: cover; 
+  margin-top: -260px; 
+}
+
 .about-text p {
   margin-bottom: 1rem;
 }
@@ -197,9 +211,15 @@ h5 {
   font-weight: 600;
 }
 
+<<<<<<< HEAD
 h1 {
   font-family: 'Dancing Script', cursive;
   font-weight: 20;
+=======
+h1, h2{
+  font-family:'Lora', serif;
+   font-weight:500;
+>>>>>>> b6e50cd6302fbf622d1c6fa89b21fb00232d2362
 }
 
 p {
@@ -273,3 +293,4 @@ h1.contact {
   font-size: 0.9em;
   color: #555;
 }
+

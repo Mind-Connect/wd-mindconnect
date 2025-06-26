@@ -18,7 +18,7 @@
 
   <body>
 
-  <?php include 'navbar.php'; ?>  
+  <?php include 'userNavbar.php'; ?>  
 
     <section class="hero-section my-5">
       <div class="hero-overlay"></div>
@@ -46,10 +46,9 @@
       </div>
 
       <div class="row m-3 py-5 justify-content-center">
-       
         <div class="col-md-9 d-flex flex-column">
           <h2 class="text-center mb-4">Words you didn’t ask for, but maybe needed.</h2>
-          <div id="CarouselSlide" class="carousel slide" data-bs-ride="carousel">
+          <div id="CarouselSlide" class="carousel slide" data-bs-ride="carousel" style="box-shadow: 4px 3px 1px 2px rgba(240, 255, 240, 0.50);">
           <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="3000">
               <img src="img/quote 1.jpg" class="d-block w-100" alt="quote 1">
@@ -72,8 +71,7 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
-      
+      </div>
     </div>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
   </body>
