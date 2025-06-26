@@ -26,13 +26,10 @@ body {
 }
 
 .nav-link {
-<<<<<<< HEAD
   color: rgba(255, 255, 255) !important;
   font-family: 'Playfair Display', serif;
-=======
   color: rgba(255,255,255);
-  font-family:'Playfair Display', serif;
->>>>>>> b6e50cd6302fbf622d1c6fa89b21fb00232d2362
+  font-family: 'Playfair Display', serif;
   font-weight: 400;
   font-size: 1.5rem;
   margin-left: 1.5rem;
@@ -214,10 +211,11 @@ h5 {
 h1 {
   font-family: 'Dancing Script', cursive;
   font-weight: 20;
+}
 
 h1, h2{
   font-family:'Lora', serif;
-   font-weight:500;
+  font-weight:500;
 }
 
 p {
