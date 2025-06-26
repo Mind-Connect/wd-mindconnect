@@ -403,4 +403,6 @@ h1.contact {
 @media (max-width: 576px) {
   .hotline-table th, .hotline-table td {
     font-size: 0.9rem;
-    padding: 0.4rem
+    padding: 0.4rem;
+  }
+}
