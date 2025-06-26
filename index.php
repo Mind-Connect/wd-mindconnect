@@ -1,3 +1,5 @@
+<?php require_once 'gatekeeper.php'; ?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -8,17 +10,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
     <link rel="icon" type="img/png" href="img/FINAL.png">
+    <link href="style.css" rel="stylesheet">
   </head>
-
-  <style>
-    <?php include 'style.css'; ?>
-  </style>
 
   <body>
 
-  <?php include 'userNavbar.php'; ?>  
+  <?php include 'navbar.php'; ?>  
 
     <section class="hero-section my-5">
       <div class="hero-overlay"></div>
@@ -31,40 +29,46 @@
       </div>
     </section>
 
+<<<<<<< HEAD
   <section>
+=======
+>>>>>>> 5a94d6173d84bb6c0315915d23312f22ce7bc591
     <div class="container main-area">
       <div class="row m-3 py-5">
        
         <div class="col-md-3 py-5 d-flex flex-column align-items-start">
-          <button id = "hotlineButton" class="glass-btn" onclick= changeHotline()>Hotlines</button>
-          <button id = "articleButton" class="glass-btn" onclick= changeArticle()>Articles</button>
+          <button id="hotlineButton" class="glass-btn" onclick="changeHotline()">Hotlines</button>
+          <button id="articleButton" class="glass-btn" onclick="changeArticle()">Articles</button>
         </div>
    
-        <div id= "hotline" class="col-md-9">
-          <div class="glass-box ">adfd</div>
+        <div id="hotline" class="col-md-9">
+          <div class="glass-box p-0" style="height: 400px;">
+            <iframe id="hotlineFrame" src="" style="width:100%;height:100%;border:none;display:none;"></iframe>
+            <div id="hotlinePlaceholder">adfd</div>
+          </div>
         </div>
         
-        <div id= "article" class="col-md-9" style="display: none;">
+        <div id="article" class="col-md-9" style="display: none;">
           <div class="glass-box">sffd</div>
         </div>
       </div>
   </section>
 
-        <?php include 'quotes.php'; ?>  
-
-      
+      <?php include 'quotes.php'; ?>  
     </div>
 
     <script>
-   function changeHotline(){
-  document.getElementById("hotline").style.display = "block";  
-  document.getElementById("article").style.display = "none";
-}
+    function changeHotline(){
+      document.getElementById("hotline").style.display = "block";  
+      document.getElementById("article").style.display = "none";
+      document.getElementById("hotlineFrame").src = "hotline.php";
+      document.getElementById("hotlineFrame").style.display = "block";
+      document.getElementById("hotlinePlaceholder").style.display = "none";
+    }
 
-function changeArticle(){
-  document.getElementById("hotline").style.display = "none";  
-  document.getElementById("article").style.display = "block";
-}
+    function changeArticle(){
+      document.getElementById("hotline").style.display = "none";  
+      document.getElementById("article").style.display = "block";
+    }
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
-  </body>

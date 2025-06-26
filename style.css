@@ -1,5 +1,7 @@
 body {
   background: rgba(223, 245, 227);
+  font-family: 'Inter', sans-serif;
+  color: #212529;
 }
 
 .navbar {
@@ -26,8 +28,6 @@ body {
 }
 
 .nav-link {
-  color: rgba(255, 255, 255);
-  font-family: 'Playfair Display', serif;
   color: rgba(255,255,255);
   font-family: 'Playfair Display', serif;
   font-weight: 400;
@@ -91,6 +91,7 @@ body {
   }
 }
 
+/* Hero section */
 .hero-section {
   position: relative;
   background: url('img/bg.jpg') center center/cover no-repeat;
@@ -293,3 +294,113 @@ h1.contact {
   font-size: 0.9em;
   color: #555;
 }
+
+.title {
+  text-align: center;
+  padding: 4rem 1rem 2rem;
+}
+
+.title h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #0b3d91;
+}
+
+.title p {
+  color: #6c757d;
+  margin-top: 0.5rem;
+}
+
+.category-btn {
+  margin: 0.5rem;
+  border-radius: 2rem;
+  padding: 0.5rem 1.2rem;
+  font-weight: 500;
+  transition: background 0.2s, color 0.2s;
+}
+
+.category-btn:hover,
+.category-btn.active {
+  background-color: #0d6efd;
+  color: white;
+}
+
+.hotline-category {
+  display: none;
+  margin-top: 3rem;
+}
+
+.hotline-card {
+  border-radius: 12px;
+  background: white;
+  padding: 1.5rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s, box-shadow 0.2s;
+  height: 100%;
+}
+
+.hotline-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.08);
+}
+
+.hotline-card h5 {
+  font-weight: 600;
+  color: #0b3d91;
+}
+
+.hotline-card p {
+  margin: 0.2rem 0;
+  color: #444;
+  font-size: 0.95rem;
+}
+
+.hotline-section {
+  padding-bottom: 3rem;
+}
+
+.hotline-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 0;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+}
+
+.hotline-table th, .hotline-table td {
+  padding: 0.7rem 1rem;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.hotline-table th {
+  background: #f6f8fa;
+  font-weight: 600;
+  color: #0d6efd;
+}
+
+.hotline-table tr:last-child td {
+  border-bottom: none;
+}
+
+@media (max-width: 768px) {
+  .title h2 {
+    font-size: 1.8rem;
+  }
+
+  .hotline-card {
+    padding: 1rem;
+  }
+  .hotline-table th, .hotline-table td {
+    font-size: 0.95rem;
+    padding: 0.5rem 0.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .hotline-table th, .hotline-table td {
+    font-size: 0.9rem;
+    padding: 0.4rem

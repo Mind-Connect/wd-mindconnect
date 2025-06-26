@@ -1,3 +1,5 @@
+<?php require_once 'gateKeeper.php'; ?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -10,12 +12,16 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   </head>
   <body>
+<<<<<<< HEAD
 
       <?php include 'userNavbar.php'; ?>  
+=======
+      <?php include 'navbar.php'; ?>  
+>>>>>>> 5a94d6173d84bb6c0315915d23312f22ce7bc591
 
     <section id="about" class="bg-muted">
         <div class="container">
-            <div class="section-header">
+            <div class="section-header py-5">
                 <h1 class="section-title">About Us</h1>
                 <div class="section-divider"></div>
             </div>
