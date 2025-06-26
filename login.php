@@ -26,7 +26,7 @@ if (isset($_POST['username'])) {
   }
 }
 ?>
-
+<?php require_once 'gateKeeper.php'; ?>
 <!doctype html>
 <html lang="en">
 

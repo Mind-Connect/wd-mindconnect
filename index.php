@@ -1,3 +1,5 @@
+<?php require_once 'gatekeeper.php'; ?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -18,7 +20,7 @@
 
   <body>
 
-  <?php include 'userNavbar.php'; ?>  
+  <?php include 'navbar.php'; ?>  
 
     <section class="hero-section my-5">
       <div class="hero-overlay"></div>

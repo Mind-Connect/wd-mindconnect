@@ -1,3 +1,5 @@
+<?php require_once 'gateKeeper.php'; ?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -9,9 +11,9 @@
     <link rel="icon" type="img/png" href="img/FINAL.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   </head>
-  <body class="contact">
+  <body class="contact" style="background-color:rgb(223, 245, 227);">
 
-      <?php include 'userNavbar.php'; ?>  
+      <?php include 'navbar.php'; ?>  
 
 
     <section class="contact-section">
@@ -50,7 +52,7 @@
         <img src="img/hernandez.jpg" alt="Hernandez">
         <h3><strong>HERNANDEZ,</strong> John Matthew</h3>
         <p>Email: john.matthew.hernandez@gmail.com</p>
-        <p>Contact: 0933 445 2211</p>
+        <p>Contact: 0906 706 4653</p>
       </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
   </body>
