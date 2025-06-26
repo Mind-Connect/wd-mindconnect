@@ -160,6 +160,14 @@ section {
   justify-content: center
 }
 
+.about-icon {
+  width: 400px;  
+  height: auto;   
+  border-radius: 50%; 
+  object-fit: cover; 
+  margin-top: -260px; 
+}
+
 .about-text p {
   margin-bottom: 1rem;
 }
