@@ -29,9 +29,7 @@
       </div>
     </section>
 
-<<<<<<< HEAD
   <section>
-
     <div class="container main-area">
       <div class="row m-3 py-5">
        
