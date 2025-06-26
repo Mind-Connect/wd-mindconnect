@@ -35,7 +35,7 @@ body {
   width: 140px;
   padding: 18px 0;
   margin-left: 10px;
-  background: rgba(255,255,255,0.4);
+  background: rgba(223, 245, 227);
   border: none;
   border-radius: 12px;
   box-shadow: 0 4px 16px rgba(32,83,117,0.10);
@@ -50,7 +50,7 @@ body {
   margin-bottom: 0;
 }
 .glass-btn:hover {
-  background: rgba(255,255,255,0.7);
+  background: rgba(255,0,0);
 }
 .glass-box {
   min-height: 300px;
