@@ -5,9 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mind Connect</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
     <link rel="icon" type="img/png" href="img/FINAL.png">
   </head>
+
+  <style>
+    <?php include 'style.css'; ?>
+  </style>
+  
   <body>
 
     <div class="container-fluid shadow" style="background:#205375;">
