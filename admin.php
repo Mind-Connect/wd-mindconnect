@@ -13,6 +13,12 @@
     <?php include 'adminStyle.css'; ?>
   </style>
 
+  <script>
+  function changeText(){
+    document.getElementById("Text").textContent= "Magdrop ka na";
+  }
+  <script>
+  
   <body style="background:rgb(32, 83, 117);">
 
        <?php include 'adminNavbar.php'; ?>  
@@ -25,9 +31,10 @@
         </div>
    
         <div class="col-md-9">
-          <div class="admin-glass-box"></div>
+          <div class="admin-glass-box"><p id="Text" class="py-3 m-5">Ni hao fine shyt<p></div>
+          <button class="show-glass-btn py-3 m-5 align-items-start" onclick= "changeText()">Show</button>
+
         </div>
       </div>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
   </body>
