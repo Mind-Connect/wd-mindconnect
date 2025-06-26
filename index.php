@@ -1,3 +1,23 @@
+<?php
+  include("connection.php");
+
+  session_start();
+
+  $userID = $_SESSION['userID'];
+  $username = $_SESSION['username'];
+  $password = $_SESSION['password'];
+  $email = $_SESSION['email'];
+  $firstName = $_SESSION['firstName'];
+  $lastName = $_SESSION['lastName'];
+
+  if(!isset($username)){
+    header("Location: login.php");
+  }
+  
+  $petQuery = "SELECT * FROM pets WHERE userID = '$userID'";
+  $petResult = executeQuery($petQuery);
+?>
+
 <!doctype html>
 <html lang="en">
   <head>
