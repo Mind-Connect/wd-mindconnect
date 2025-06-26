@@ -11,6 +11,7 @@
   </head>
   <body>
 
+<<<<<<< HEAD
     <div class="container-fluid shadow" style="background:#205375;">
       <div class="container">
         <div class="row">
@@ -40,6 +41,9 @@
         </div>
       </div>
     </div>
+=======
+      <?php include 'userNavbar.php'; ?>  
+>>>>>>> 369ddcfc43c5a0b80ac791b736fc06e47d41d6f4
 
     <section id="about" class="bg-muted">
         <div class="container">
