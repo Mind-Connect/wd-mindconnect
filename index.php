@@ -31,8 +31,7 @@
 
 <<<<<<< HEAD
   <section>
-=======
->>>>>>> 5a94d6173d84bb6c0315915d23312f22ce7bc591
+
     <div class="container main-area">
       <div class="row m-3 py-5">
        
