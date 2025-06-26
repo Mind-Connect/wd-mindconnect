@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mind Connect</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap" rel="stylesheet">
+
     <link rel="icon" type="img/png" href="img/FINAL.png">
   </head>
 
@@ -48,7 +50,7 @@
       <div class="hero-overlay"></div>
       <div class="container hero-content">
         <h5>Caring for a better life</h5>
-        <h1>Your Mental Health Matters.</h1>
+        <h1 style="color: rgb(0,0,0);">Your Mental Health Matters.</h1>
         <p>
           Take time to check in with yourself. It's okay to pause, to breathe, and to ask for help when you need it. You don't have to go through anything alone — support is always within reach. Caring for your mental well-being is not a sign of weakness, but a step toward strength. You deserve peace, healing, and support.
         </p>
