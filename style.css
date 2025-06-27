@@ -91,7 +91,6 @@ body {
   }
 }
 
-/* Hero section */
 .hero-section {
   position: relative;
   background: url('img/bg.jpg') center center/cover no-repeat;
@@ -184,12 +183,32 @@ section {
   justify-content: center
 }
 
+/* Responsive About Icon */
 .about-icon {
-  width: 400px;  
-  height: auto;   
-  border-radius: 50%; 
-  object-fit: cover; 
-  margin-top: -260px; 
+  width: 300px;
+  max-width: 90vw;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: -120px;
+  margin-bottom: 24px;
+  display: block;
+}
+
+@media (max-width: 991px) {
+  .about-icon {
+    width: 200px;
+    margin-top: -60px;
+    margin-bottom: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-icon {
+    width: 140px;
+    margin-top: 0;
+    margin-bottom: 12px;
+  }
 }
 
 .about-text p {
@@ -217,7 +236,6 @@ h1 {
 
 h1, h2{
   font-family:'Lora', serif;
-  font-weight:500;
   font-weight:500;
 }
 
