@@ -27,7 +27,7 @@ include 'connection.php';
   <div class="row m-5 py-5">
     <div class="col-md-3 py-5 d-flex flex-column align-items-start">
       <button id="previewButton" class="admin-glass-btn mb-2" onclick="changePreview()">Preview</button>
-      <button id="activityButton" class="admin-glass-btn" onclick="changeActivity()">Activity Log</button>
+      <button id="activityButton" class="admin-glass-btn" onclick="changeActivity()">Access Table</button>
     </div>
 
     <div id="preview" class="col-md-9">
