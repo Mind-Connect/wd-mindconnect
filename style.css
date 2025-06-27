@@ -339,8 +339,9 @@ h1.contact {
 
 .category-btn:hover,
 .category-btn.active {
-  background-color: #0d6efd;
-  color: white;
+  background-color: #0d6efd !important;
+  color: #fff !important;
+  border-color: #0d6efd !important;
 }
 
 .hotline-category {
@@ -422,5 +423,53 @@ h1.contact {
   .hotline-table th, .hotline-table td {
     font-size: 0.9rem;
     padding: 0.4rem;
+  }
+}
+
+.article-section {
+  padding-bottom: 3rem;
+}
+
+.article-year {
+  margin-bottom: 2.5rem;
+}
+
+.article-card,
+.card.h-100 {
+  border-radius: 16px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+  transition: transform 0.2s, box-shadow 0.2s;
+  background: #fff;
+  min-height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+
+.article-card:hover,
+.card.h-100:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 28px rgba(13, 110, 253, 0.10);
+}
+
+.card-title,
+.article-card h5 {
+  font-weight: 600;
+  color: #0b3d91;
+}
+
+.card-text,
+.article-card p {
+  color: #444;
+  font-size: 0.97rem;
+}
+
+@media (max-width: 768px) {
+   .article-card,
+   .card.h-100 {
+    min-height: 180px;
+    padding:
   }
 }
