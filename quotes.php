@@ -17,10 +17,16 @@ $images = [
                 </div>
 
                 <?php
-                foreach ($images as $index => $image_path) {
+                $index = 0;
+                
+                while ($index < count($images)) {
+                    $image_path = $images[$index];
+
                     echo '<div class="carousel-item" data-bs-interval="3000">';
                     echo '  <img src="' . $image_path . '" class="d-block w-100" alt="Quote ' . ($index + 2) . '">';
                     echo '</div>';
+
+                    $index++;
                 }
                 ?>
             </div>
