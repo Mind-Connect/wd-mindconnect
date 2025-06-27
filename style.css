@@ -467,9 +467,9 @@ h1.contact {
 }
 
 @media (max-width: 768px) {
-   .article-card,
-   .card.h-100 {
+  .article-card,
+  .card.h-100 {
     min-height: 180px;
-    padding:
+    padding: 1rem;
   }
 }
