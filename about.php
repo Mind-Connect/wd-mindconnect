@@ -12,12 +12,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   </head>
   <body>
-<<<<<<< HEAD
 
-      <?php include 'userNavbar.php'; ?>  
-=======
       <?php include 'navbar.php'; ?>  
->>>>>>> 5a94d6173d84bb6c0315915d23312f22ce7bc591
 
     <section id="about" class="bg-muted">
         <div class="container">
@@ -36,24 +32,6 @@
                             <p>Because mental health matters as much as physical health, we focus on what makes the biggest difference in critical moments: fast access to voice-on-the-line support and clear, compassionate knowledge. No endless searches, no judgment—just the numbers to dial and the insights to guide you, available anytime you need them.</p>
                             <p>Wherever you are in your journey, MindConnect is here to listen, inform, and empower. Together, we can break the silence and move toward healing one call, one article, one person at a time.</p>
 
-
-                            <div class="section-divider"></div>
-
-                            <div class="info-item d-flex align-items-start gap-3 mb-4">
-                                
-                                <div class="info-content">
-                                    <h5>Full Name:</h5>
-                                    <p>Arellano, Francis Miguel</p>
-                                    <p>Chan, Justine Henry</p>
-                                    <p>Esquivel, Shaine</p>
-                                    <p>Guevarra, Clide Ivans</p>
-                                    <p>Hernandez, John Matthew</p>
-                                </div>
-
-                                
-                            </div>
-
-                            
                         </div>
                     </div>
 

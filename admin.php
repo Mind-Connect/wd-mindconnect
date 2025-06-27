@@ -31,12 +31,10 @@ if (!isset($_SESSION['userID'])) {
         </div>
 
         <div id="preview" class="col-md-9">
-            <!-- The iframe previews your main page -->
             <div class="admin-glass-box mt-3" style="height: 60vh; padding: 1rem;">
                 <iframe src="index.php" style="width: 100%; height: 100%; border: none; background: #fff;"></iframe>
             </div>
             
-            <!-- This button now controls the ENTIRE site's accessibility -->
             <button id="showButton" class="show-glass-btn py-3 m-5 align-items-start" onclick="togglePageStatus()">
                 Loading Status...
             </button>
@@ -58,7 +56,7 @@ if (!isset($_SESSION['userID'])) {
                 showButton.textContent = "Hide Site";
                 showButton.style.backgroundColor = "rgb(255, 102, 102)";
                 showButton.style.color = "rgb(255,255,255)";
-            } else { // status is 'blocked'
+            } else {
                 showButton.textContent = "Show Site";
                 showButton.style.backgroundColor = "";
                 showButton.style.color = "";
@@ -73,7 +71,6 @@ if (!isset($_SESSION['userID'])) {
                 const data = await response.json();
                 updateButtonUI(data.newStatus);
                 
-                // Reload the iframe so the admin can see the change immediately
                 previewFrame.src = previewFrame.src;
             } catch (error) {
                 console.error('Error toggling page status:', error);

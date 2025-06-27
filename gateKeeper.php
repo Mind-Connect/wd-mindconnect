@@ -15,7 +15,7 @@ if ($status === 'blocked') {
     <meta charset="UTF-8">
     <title>Site Unavailable</title>
     <style>
-        body { text-align: center; padding: 50px; font-family: sans-serif; }
+        body { text-align: center; padding: 50px; font-family:'Lora', serif; }
         h1 { font-size: 3em; }
     </style>
 </head>

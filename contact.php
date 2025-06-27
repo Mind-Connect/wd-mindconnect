@@ -51,7 +51,7 @@
       <div class="team-member">
         <img src="img/hernandez.jpg" alt="Hernandez">
         <h3><strong>HERNANDEZ,</strong> John Matthew</h3>
-        <p>Email: john.matthew.hernandez@gmail.com</p>
+        <p>Email: johnmatthew.hernandez@gmail.com</p>
         <p>Contact: 0906 706 4653</p>
       </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
